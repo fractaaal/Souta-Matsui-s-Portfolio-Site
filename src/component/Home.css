@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.mandelblot {
+    background-image: url(../images/mandelblot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height: 100vh
+}
+.mandelblot h2{
+    margin: 0px;
+    font-size: 300%;
+    color: #432;
+    padding-top: 300px;
+    padding-left: 100px;
+    text-align: justify;
+}
+
+.mandelblot p{
+    margin: 0px;
+    color: #432;
+    padding-top: 0px;
+    padding-left: 100px;
+    text-align: justify;
+}
+
+@media(max-width: 900px){
+    .mandelblot {
+        background-image: url(../images/mandelblot.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        height: 100vh
+    }
+    .mandelblot h2{
+        margin: 0px;
+        font-size: 2rem;
+        color: #432;
+        padding-top: 300px;
+        padding-left: 10%;
+        text-align: justify;
+    }
+    
+    .mandelblot p{
+        margin: 0px;
+        font-size: 0.7rem;
+        color: #432;
+        padding-top: 0px;
+        padding-left: 10%;
+        text-align: justify;
+    }
+}

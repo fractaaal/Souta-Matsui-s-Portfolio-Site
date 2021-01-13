@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.logos{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    justify-content: center;
+    gap:20px;
+}
+.twitter img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:120px;
+}
+.qiita img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:120px;
+}
+.github img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:120px;
+}
+
+
+@media(max-width: 900px){
+    .logos{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        justify-content: center;
+        gap:10px;
+    }
+    .twitter img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70px;
+    }
+    .qiita img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70px;
+    }
+    .github img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70px;
+    }
+}

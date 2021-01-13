@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+.container-skills{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    gap: 30px;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 240px 240px 240px;
+    justify-content: center;
+}
+
+.ht{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); 
+    border-radius: 5px;
+}
+.ht h2{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.ht p{
+    color: #432;
+}
+.ja{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.ja h2{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.ja p{
+    color: #432;
+}
+.re{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.re h2{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.re p{
+    color: #432;
+}
+.ru{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.ru h2{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.ru p{
+    color: #432;
+}
+.py{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.py h2{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.py p{
+    color: #432;
+}
+.ma{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.ma h2{
+    color: #ACB6E5;
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.ma p{
+    color: #432;
+}
+
+@media(max-width: 900px){
+    .container-sk{
+        padding:0;
+        margin: 0;
+    }
+    .container-skills{
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(240px, 1fr));
+        gap: 30px;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+    }
+    
+    .ht{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); 
+        border-radius: 5px;
+    }
+    .ht h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ht p{
+        color: #432;
+    }
+    .ja{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .ja h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ja p{
+        color: #432;
+    }
+    .re{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .re h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .re p{
+        color: #432;
+    }
+    .ru{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .ru h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ru p{
+        color: #432;
+    }
+    .py{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .py h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .py p{
+        color: #432;
+    }
+    .ma{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .ma h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ma p{
+        color: #432;
+    }  
+}
+
+@media(max-width: 700px){
+    .container-sk{
+        padding:0;
+        margin: 0;
+    }
+    .container-skills{
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 250px 250px 250px 250px 250px 250px;
+        grid-template-columns: 250px;
+        justify-content: center;
+    }
+    
+    .ht{
+        margin: 0;
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); 
+        border-radius: 5px;
+    }
+    .ht h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ht p{
+        color: #432;
+    }
+    .ja{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .ja h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ja p{
+        color: #432;
+    }
+    .re{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .re h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .re p{
+        color: #432;
+    }
+    .ru{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .ru h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ru p{
+        color: #432;
+    }
+    .py{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .py h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .py p{
+        color: #432;
+    }
+    .ma{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+    }
+    .ma h2{
+        color: #ACB6E5;
+        background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    .ma p{
+        color: #432;
+    }  
+}

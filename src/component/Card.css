@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.card-link{
+    height:700px
+}
+
+
+.crd-container{
+    border-radius: 5px;
+    background: white;
+    height:100%;
+
+}
+.card-img{
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.card-title{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #423;
+    text-align: center;
+}
+.card-text p{
+    padding: 0;
+    margin: 10px;
+    font-size: 0.8rem;
+    color: #423;
+    text-align: justify;
+}
+
+@media(max-width: 1200px){
+    .crd-container{
+        border-radius: 5px;
+        background: white;
+
+    }
+    .card-img{
+        height: 220px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .card-title p{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        color: #423;
+        text-align: center;
+    }
+    .card-text p{
+        padding: 0;
+        margin: 10px;
+        font-size: 0.8rem;
+        color: #423;
+        text-align: justify;
+    }
+    h2{
+        margin:0;
+        padding:0;
+    }
+}
+
+@media(max-width: 900px){
+    .crd-container{
+        border-radius: 5px;
+        background: white;
+
+    }
+    .card-img{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 180px
+    }
+    .card-title p{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        color: #423;
+        text-align: center;
+    }
+    .card-text p{
+        padding: 0;
+        margin: 10px;
+        font-size: 0.8rem;
+        color: #423;
+        text-align: justify;
+    }
+    h2{
+        margin:0;
+        padding:0;
+    }
+}
+
