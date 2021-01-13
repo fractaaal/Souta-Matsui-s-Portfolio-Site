@@ -14,7 +14,7 @@ import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ToDo />
     <Route exact path={'/'} component={Home}/>
     <Route path={'/about'}  component={About}/>
