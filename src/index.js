@@ -11,17 +11,17 @@ import Contact from './component/Contact';
 import LogosAnimation from './component/LogosAnimation';
 import FullWidthTabs from './Tabs'
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, BrowserRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <ToDo />
     <Route exact path={'/'} component={Home}/>
     <Route path={'/about'}  component={About}/>
     <Route path={'/skills'}  component={Skills}/>
     <Route path={'/portfolio'} component={Portfolio}/>
     <Route path={'/contact'} component={Contact}/>
-  </BrowserRouter>
+  </HashRouter>
   , document.getElementById('root')
 );
 
