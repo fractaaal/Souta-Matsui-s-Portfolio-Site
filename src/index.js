@@ -14,14 +14,14 @@ import * as serviceWorker from './serviceWorker';
 import {HashRouter, BrowserRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ToDo />
     <Route exact path={'/'} component={Home}/>
     <Route path={'/about'}  component={About}/>
     <Route path={'/skills'}  component={Skills}/>
     <Route path={'/portfolio'} component={Portfolio}/>
     <Route path={'/contact'} component={Contact}/>
-  </HashRouter>
+  </BrowserRouter>
   , document.getElementById('root')
 );
 
